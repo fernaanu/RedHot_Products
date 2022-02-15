@@ -1,0 +1,11 @@
+<?php
+$cartCount = $block->showAddToCartCount();
+?>
+<?php
+if ($cartCount != '' && $cartCount > 0):
+    ?>
+    <div class="show-cart-count">
+        <?= /** @noEscape */ $cartCount; ?> customer<?=($cartCount==1?'':'s')?> love this product!
+    </div>
+<?php endif; ?>
+

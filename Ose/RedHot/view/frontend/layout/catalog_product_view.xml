@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * OSE Digital.
+ *
+ * @category    OSE
+ * @package     RedHot Product
+ * @author      Anuradha Fernando <anuradhafernando81@gmail.com>
+ * @copyright   Copyright (c) 2022 OSE Digital. (https://www.ose.com.au/)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="product.info.form.content">
+            <block class="Ose\RedHot\Block\Catalog\Product\View\RedHot" name="product.info.redhot" before="product.info.addtocart"
+                   template="Ose_RedHot::catalog/product/view/add_to_cart_count.phtml">
+            </block>
+        </referenceContainer>
+    </body>
+</page>

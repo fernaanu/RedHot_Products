@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * OSE Digital.
+ *
+ * @category    OSE
+ * @package     RedHot Product
+ * @author      Anuradha Fernando <anuradhafernando81@gmail.com>
+ * @copyright   Copyright (c) 2022 OSE Digital. (https://www.ose.com.au/)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\OfflineShipping\Model\Carrier\Flatrate"
+                type="Ose\RedHot\Model\Carrier\Flatrate" />
+</config>
